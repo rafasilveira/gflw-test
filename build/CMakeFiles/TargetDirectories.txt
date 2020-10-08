@@ -1,0 +1,3 @@
+/Users/rafael/grafica/OpenGL/build/CMakeFiles/rebuild_cache.dir
+/Users/rafael/grafica/OpenGL/build/CMakeFiles/edit_cache.dir
+/Users/rafael/grafica/OpenGL/build/CMakeFiles/glfw-test.dir

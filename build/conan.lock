@@ -1,0 +1,56 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "glew:fPIC=True\nglew:shared=False\nglfw:fPIC=True\nglfw:shared=False",
+    "requires": [
+     "1",
+     "3"
+    ],
+    "path": "../conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "glfw/3.3.2",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "fa4ed2a503e5e942f251db310fad3394620833cc",
+    "prev": "0",
+    "requires": [
+     "2"
+    ],
+    "context": "host"
+   },
+   "2": {
+    "ref": "opengl/system",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "3": {
+    "ref": "glew/2.1.0",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "00ebe12404e65dd3ccac22c5d870aaa39dcc53fe",
+    "prev": "0",
+    "requires": [
+     "2",
+     "4"
+    ],
+    "context": "host"
+   },
+   "4": {
+    "ref": "glu/system",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "requires": [
+     "2"
+    ],
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=apple-clang\ncompiler.libcxx=libc++\ncompiler.version=11.0\nos=Macos\nos_build=Macos\n[options]\n[build_requires]\n[env]\n"
+}
